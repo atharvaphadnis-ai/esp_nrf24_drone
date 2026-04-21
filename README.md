@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Inspire Award Build - README</title>
+    <title>Inspire Award Build - PWM Flight Controller (Atharva Phadnis)</title>
     <style>
-        /* Optional: clean background and font for readability */
+        /* clean background and font for readability */
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
             line-height: 1.5;
@@ -13,8 +13,6 @@
             background: #fefefe;
             color: #111;
         }
-        /* Spacing between sentences is handled by <br><br> tags,
-           but we also add a little extra care for headings */
         h1, h2, h3 {
             margin-top: 1.8em;
             margin-bottom: 0.5em;
@@ -35,6 +33,13 @@
             font-weight: bold;
             font-size: 0.9rem;
         }
+        .intro-card {
+            background: #e8f0fe;
+            border-left: 5px solid #1e6fdf;
+            padding: 1rem 1.5rem;
+            margin: 1.5rem 0;
+            border-radius: 12px;
+        }
         hr {
             margin: 2em 0;
         }
@@ -45,14 +50,22 @@
 <!-- 
     This README uses explicit HTML line breaks (<br><br>) between every sentence 
     to ensure maximum visual spacing and neatness, as requested.
-    All credits to Pratik Phadte, and full compatibility for any 6-channel PWM TX/RX.
-    Optional sensors: barometer, GPS, compass.
-    Built for the Inspire Award project – please star the repo!
+    Credits: Pratik Phadte for calibration, light controller, PWM protocol.
+    Author: Atharva Phadnis (age 13) – first Inspire Award project.
+    Optional sensors: barometer, GPS, compass. Please star the repo!
 -->
 
 <h1>✨ Inspire Award Build – PWM Flight Controller ✨</h1>
 
 <br>
+
+<!-- Personal introduction from Atharva Phadnis (age 13) -->
+<div class="intro-card">
+    <strong>👋 Hi everyone, I am Atharva Phadnis.</strong><br><br>
+    This is my <strong>first Inspire Award project</strong> – I am super excited to participate! 🚀<br><br>
+    I am only <strong>13 years old</strong> and I love building things with microcontrollers, transmitters, and sensors.<br><br>
+    Please support my journey by <strong>starring this repository</strong> and sharing your feedback!<br><br>
+</div>
 
 <strong>🔹 Based on Pratik Phadte's resources & Instructables PWM protocol 🔹</strong><br><br>
 
@@ -131,6 +144,18 @@ These sensors can be integrated via I2C or UART, and the codebase includes examp
 
 <hr>
 
+<h2>👦 About the Creator – Atharva Phadnis (Age 13)</h2>
+
+<br>
+
+My name is <strong>Atharva Phadnis</strong>, and I am thrilled to share my <strong>first Inspire Award project</strong> with the world.<br><br>
+I am <strong>13 years old</strong> and I have been passionate about electronics, coding, and RC systems since I was 10.<br><br>
+This project uses Pratik Phadte's amazing PWM resources, and I have added my own calibration tweaks and sensor integrations.<br><br>
+Participating in the <strong>Inspire Award</strong> is a dream come true – I want to inspire other kids my age to build and innovate.<br><br>
+Please <strong>star this repo</strong> to encourage me and show that young makers can create professional‑grade projects!<br><br>
+
+<hr>
+
 <h2>📜 License & Attribution Requirement</h2>
 
 <br>
@@ -139,24 +164,25 @@ This repository is provided for educational and non‑commercial Inspire Award p
 <strong>You must credit Pratik Phadte</strong> for the original calibration, light controller code, and PWM protocol from Instructables.<br><br>
 If you modify or redistribute this code, keep the credits intact and link back to the original sources.<br><br>
 The optional sensor integrations (barometer, GPS, compass) are community contributions – feel free to use them.<br><br>
+Additional credit: <strong>Atharva Phadnis</strong> for the Inspire Award build integration and documentation.<br><br>
 
 <hr>
 
-<h2>⭐ Star This Repo – Support the Inspire Award Build ⭐</h2>
+<h2>⭐ Star This Repo – Support a 13‑Year‑Old Maker's Inspire Award Journey ⭐</h2>
 
 <br>
 
-<strong>This entire repository exists to help students, hobbyists, and innovators build their Inspire Award projects.</strong><br><br>
+<strong>This entire repository represents my first Inspire Award project as a 13‑year‑old student.</strong><br><br>
 If you find value in the PWM protocol, calibration tools, or Pratik Phadte's amazing resources, <strong>please hit the ⭐ STAR button</strong> at the top of this page.<br><br>
-Your star makes the project more visible and encourages further documentation, bug fixes, and new features.<br><br>
-Thank you for respecting the work of Pratik Phadte and for supporting open‑source RC development!<br><br>
+Your star will help me gain confidence, motivate me to keep learning, and make this project visible to other young innovators.<br><br>
+Thank you for respecting the work of Pratik Phadte and for supporting a teenager’s dream!<br><br>
 
 <hr>
 
 <p style="font-size: 0.9rem; text-align: center; margin-top: 2rem;">
-    <strong>🙌 Built with respect for Pratik Phadte's contributions 🙌</strong><br>
-    Any 6‑channel PWM TX/RX | Add barometer, GPS, compass | Inspire Award ready<br>
-    <span class="star-badge">⭐ PLEASE STAR THIS REPO ⭐</span>
+    <strong>🙌 Built by Atharva Phadnis (age 13) with respect for Pratik Phadte's contributions 🙌</strong><br>
+    Any 6‑channel PWM TX/RX | Add barometer, GPS, compass | Inspire Award 2026 – first project!<br>
+    <span class="star-badge">⭐ PLEASE STAR THIS REPO – SUPPORT A YOUNG MAKER ⭐</span>
 </p>
 
 </body>
