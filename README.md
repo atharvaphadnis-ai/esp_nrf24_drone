@@ -1,20 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Inspire Award Build - README</title>
-    <style>
-        /* Optional: clean background and font for readability */
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
-            line-height: 1.5;
-            max-width: 900px;
-            margin: 2rem auto;
-            padding: 0 20px;
-            background: #fefefe;
-            color: #111;
-        }
-        /* Spacing between sentences is handled by <br><br> tags,
-           but we also add a little extra care for headings */
+
         h1, h2, h3 {
             margin-top: 1.8em;
             margin-bottom: 0.5em;
